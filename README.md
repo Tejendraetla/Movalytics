@@ -1,18 +1,24 @@
 ## Movalytics
 ---
-![Movalytics](documentation/README_images/logo.PNG)  
+
 
 ## Project Description
 ---
-* This project is a case study for a start-up, involved with recommending movies to users as a service, as well as investigating certain factors contributing to the success of movies.
-* The aim of this project, is to perform Extract, Transform, Load, on movies data, to answer questions the business may have about its users, such as:
-    * What is the highest rated movie of all time?
-    * Which genre of movies are the most popular with users?
-    * Trends in box office earnings - Does releasing a movie at a certain quarter/month of a year, lead to higher box office earnings?
-    * Which genres are the highest earning of all-time, normalized against a consumer price index?
+This project was a case study for a start-up that deals in movie recommendations to users as a service, as well as researching some factors responsible for the success of movies.
 
-* The movies data and metadata comes from Movielens, extracted from a Kaggle dataset: https://www.kaggle.com/rounakbanik/the-movies-dataset. The data contains 26 million user ratings of over 270,000 users on a collection of over 45,000 movies.
-* In addition, Consumer Price Index of Admission to Movies, Theaters, and Concerts in U.S. City Average is extracted from: https://fred.stlouisfed.org/series/CUSR0000SS62031. This will help us normalize box office earnings against inflation over the years.
+The objective of this project is to perform Extract, Transform, Load (ETL) on movie data to provide answers to business-related questions about its users, such as:
+
+What are the highest-rated movies of all time?
+
+Which movie genres are most popular among users?
+
+Box office trends: Does releasing a movie in a specific quarter or month of the year lead to higher box office revenue?
+
+What are the top-grossing genres of all time, adjusted for inflation using a consumer price index?
+
+The data for the movies and associated metadata is sourced from MovieLens, extracted from a Kaggle dataset(https://www.kaggle.com/rounakbanik/the-movies-dataset): The Movies Dataset on Kaggle. It contains 26 million ratings by more than 270,000 users across over 45,000 movies.
+
+In addition, the Consumer Price Index for Admission to Theaters, Concerts, and Movies (U.S. City Average) is sourced from: [FRED Economic Data](https://fred.stlouisfed.org/series/CUSR0000SS62031). This will aid in adjusting box office earnings for inflation over the years.
 
 ## Architecture
 ---
